@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test thread-count="2" parallel="tests" name="Test">
+    <classes>
+      <class name="prac1.PrintStatementTest"/>
+      <class name="prac2.LaunchFirefoxBrowserTest"/>
+      <class name="prac1.LauchBrowserTest"/>
+      <class name="prac2.ExecutingThroughJenkinsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
